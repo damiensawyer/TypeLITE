@@ -4,7 +4,6 @@ using System.Text;
 
 namespace TypeLite.Tests.Models {
     class ClassWithProperty : BaseClassWithProperty {
-        public int Field;
         public const int Constant = 5;
 
         public int Property { get; set; }
